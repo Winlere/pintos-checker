@@ -15,11 +15,11 @@ inputs:
   make:
     description: "Command to execute test in phase folder"
     required: true
-    default: "make clean && make && make grade"
+    default: "make clean && make && make check"
   utils_path:
     description: "Utils path (relative to root input)"
     required: true
-    default: "utils"
+    default: "src/utils"
 outputs:
   results:
     description: "results of checker"
